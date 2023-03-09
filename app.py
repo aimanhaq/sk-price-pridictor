@@ -35,7 +35,7 @@ def predict():
 
 
 if __name__=='__main__':
-    app.run()
+    app.run(debug=False,host="0.0.0.0")
 
 
 #/predict?Brand=Nike&Premium=0&Size=42&Cond=Nine

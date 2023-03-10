@@ -11,8 +11,8 @@ modelPrice=pickle.load(open('ShoePredictionModelv2Price.pkl','rb'))
 
 @app.route('/',methods=['GET','POST'])
 def index():
-
-    return render_template('index.html')
+    
+    return "hello"
 
 
 @app.route('/predict',methods=['GET','POST'])
